@@ -1,7 +1,8 @@
-package com.xsgzt.b2c.seller.frameworkdemo;
+package com.xsgzt;
 
 import android.os.Bundle;
 
+import com.xsgzt.b2c.seller.frameworkdemo.R;
 import com.xsgzt.framework.base.BaseActivity;
 import com.xsgzt.framework.navigationbar.DefaultNavigationBar;
 
