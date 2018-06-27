@@ -15,12 +15,13 @@ Add it in your root build.gradle at the end of repositories:
     	    implementation 'com.github.xsgzt:framework:framework1.0'
     	}
 
+
    /**
      * 头部的使用
      **/
-     @Override
+
      protected void intTitle() {
-          new DefaultNavigationBar.Builder(this).setTitle("ceishiactivity").build();
+            new DefaultNavigationBar.Builder(this).setTitle("ceishiactivity").build();
       }
 
       /**
