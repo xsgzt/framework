@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.lzlmall.b2b.app.vendor.framework.bannerview.BannerViewPage
+    <com.xsgzt.framework.bannerview.BannerViewPage
         android:id="@+id/banner_vp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </com.lzlmall.b2b.app.vendor.framework.bannerview.BannerViewPage>
+    </com.xsgzt.framework.bannerview.BannerViewPage>
 
     <RelativeLayout
         android:id="@+id/re_indcation"

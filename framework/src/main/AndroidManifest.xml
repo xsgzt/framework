@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lzlmall.b2b.app.vendor.framework">
+    package="com.xsgzt.framework">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,7 +12,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".imag.ImageScaleActivity"
+            android:name="com.xsgzt.framework.imag.ImageScaleActivity"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
     </application>
