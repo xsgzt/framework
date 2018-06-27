@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--验证码按钮-->
+    <declare-styleable name="VerificationButton">
+        <attr name="starColor" format="reference" />
+        <attr name="waterColor" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BannerView">
+        <!-- 点的选中的颜色值 -->
+        <attr name="dotIndicatorFocus" format="color|reference" />
+        <!-- 点的默认的颜色值 -->
+        <attr name="dotIndicatorNormal" format="color|reference" />
+        <!-- 点的大小 -->
+        <attr name="dotSize" format="dimension" />
+        <!-- 点的间距 -->
+        <attr name="dotDistance" format="dimension" />
+        <!-- 点的位置 -->
+        <attr name="dotGravity" format="enum">
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+            <enum name="left" value="-1" />
+        </attr>
+        <!-- 底部的颜色 -->
+        <attr name="bottomColor" format="color" />
+        <attr name="withProportion" format="float" />
+        <attr name="heightProportion" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="WrapEmptyRecyclerView">
+        <attr name="emptyPageLayout" format="reference" />
+    </declare-styleable>
+
+    <!--选择按钮-->
+    <declare-styleable name="SelectButton">
+        <attr name="open_image" format="reference" />
+        <attr name="close_image" format="reference" />
+    </declare-styleable>
+
+
+
+    <!--進度條-->
+    <declare-styleable name="ProgressView">
+        <attr name="banckColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="Progresssize" format="dimension" />
+        <attr name="ProgressMax" format="integer" />
+    </declare-styleable>
+
+</resources>

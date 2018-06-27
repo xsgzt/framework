@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="white">#ffffff</color>
+   <color name="main">#ff9505</color>
+   <color name="starcolor">#FCAE05</color>
+   <color name="centercolor">#FCAE05</color>
+   <color name="endcolor">#FF8105</color>
+   <color name="B3B3B3">#B3B3B3</color>
+   <color name="device">#ebebeb</color>
+
+   <color name="colorPrimary">#3F51B5</color>
+   <color name="colorPrimaryDark">#303F9F</color>
+   <color name="colorAccent">#FF4081</color>
+
+</resources>

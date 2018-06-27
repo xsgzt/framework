@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.lzlmall.b2b.app.vendor.framework.bannerview.BannerViewPage
+        android:id="@+id/banner_vp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.lzlmall.b2b.app.vendor.framework.bannerview.BannerViewPage>
+
+    <RelativeLayout
+        android:id="@+id/re_indcation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#22222222"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/banner_desc_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="长沙女儿国"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/dot_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
