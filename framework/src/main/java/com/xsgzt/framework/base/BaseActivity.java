@@ -132,7 +132,11 @@ public abstract class BaseActivity extends AppCompatActivity {
         // 在底部显示
         mErrorViewParams.gravity = Gravity.BOTTOM;
         // 动态的添加到窗体中
-        mWM.addView(mErrorView, mErrorViewParams);
+        if (!isFinishing()) {
+            mWM.addView(mErrorView, mErrorViewParams);
+
+        }
+
         mErrorView.findViewById(R.id.tv_reflash).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

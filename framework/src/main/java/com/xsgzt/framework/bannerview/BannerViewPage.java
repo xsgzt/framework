@@ -174,9 +174,12 @@ public class BannerViewPage extends ViewPager {
     @Override
     protected void onDetachedFromWindow() {
         super.onDetachedFromWindow();
-        mHandler.removeMessages(SCROLL_MSG);
-        mHandler.removeCallbacksAndMessages(null);
-        mHandler = null;
+        if(mHandler != null) {
+            mHandler.removeMessages(SCROLL_MSG);
+            mHandler.removeCallbacksAndMessages(null);
+            mHandler = null;
+        }
+
     }
 
     private float downX, downY;
